@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  margin: 40px 120px 0 120px;
+  display: flex;
+  justify-content: space-between;
+}
+nav h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+}
+ul li {
+  padding-left: 34px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 132px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.hero-title {
+  padding-right: 120px;
+}
+.hero-title h1 {
+  font-size: 52px;
+  color: #3a3a3a;
+  line-height: 70px;
+  font-weight: 600;
+}
+.hero-title p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+.hero-thumbnail {
+  display: flex;
+}
+.main-img {
+  position: absolute;
+}
+.btn {
+  background: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px;
+
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+}
+.online-brand {
+  margin: 170px 0 100px;
+
+  display: flex;
+  justify-content: center;
+}
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  height: 110px;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+}
+.brand {
+  padding-right: 60px;
+}
+.logo {
+  width: 55px;
+}
+.logo img {
+  width: 100%;
+}
+.blog-section {
+}
+.heading {
+  text-align: center;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+}
+.blogs {
+  width: 1047px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+.blog {
+  width: 329px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-info {
+  margin-top: 17px;
+  width: 300px;
+}
+.blog-info img {
+  width: 100%;
+}
+.blog-info h1 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.blog-info h4 {
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 11px;
+}
+.blog-info span {
+  font-size: 14px;
+
+  color: #5e6366;
+  margin-right: 8px;
+}
+.blog-info span .fas,
+.far {
+  font-size: 12px;
+  color: #fb8200;
+}
+.blog-title {
+  color: #787885;
+}
+.pagination {
+  position: absolute;
+  left: 1180px;
+  margin-top: 50px;
+}
+.paginate {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
